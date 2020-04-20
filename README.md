@@ -12,7 +12,7 @@ I have used Header based Authentication here written in Python.
 
 The Program runs on a docker container where MAC address and API Key needs to be passed as an argument else this would fail.
 
-Example : docker run <image_name> <mac_address> <api key>
+Example : docker run <image_name> <mac_address> <api_key>
 
 *Note: API Key can be obtained by signing up on the www.macaddress.io page.*
 ## Response
