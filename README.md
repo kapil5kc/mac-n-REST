@@ -34,7 +34,7 @@ Example : docker run <image_name> <mac_address> <api_key>
 Valid MAC Address and API Token : Status Code 200 OK - **Details Retrieved!**
 else Error Message displayed
 
-**Output:**
+**Output of a valid MAC Address and Api Key:**
 
 Valid MAC Address
 
