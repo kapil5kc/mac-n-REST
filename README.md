@@ -20,9 +20,9 @@ Example : docker run <image_name> <mac_address> <api_key>
 
 **Prerequisite**
 
-a. *Docker and GIT must be installed*
+*Docker and GIT must be installed*
 
-b. *Access to Docker Hub*
+*Access to Docker Hub*
 
 1. Clone repository :: git clone -b dev https://github.com/kapil5kc/mac-n-REST.git
 2. execute command: cd mac-n-REST 
@@ -35,7 +35,7 @@ b. *Access to Docker Hub*
 Valid MAC Address and API Token : Status Code 200 OK - **Details Retrieved!**
 else Error Message displayed
 
-### Output
+**Output**
 
 Valid MAC Address
 
