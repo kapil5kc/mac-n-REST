@@ -19,9 +19,10 @@ Example : docker run <image_name> <mac_address> <api_key>
 ## Execution Steps on Linux Server
 
 **Prerequisite**
-*Docker and Git must be installed*
 
-*Access to Docker Hub*
+a. *Docker and GIT must be installed*
+
+b. *Access to Docker Hub*
 
 1. Clone repository :: git clone -b dev https://github.com/kapil5kc/mac-n-REST.git
 2. execute command: cd mac-n-REST 
@@ -33,6 +34,13 @@ Example : docker run <image_name> <mac_address> <api_key>
 
 Valid MAC Address and API Token : Status Code 200 OK - **Details Retrieved!**
 else Error Message displayed
+
+### Output
+
+Valid MAC Address
+
+Company Name registered with the MAC address is 'allora Factory Bvba' with address at 'Lijsterlaan 11 Bornem 2880 BE'
+
 
 ## Technical Debt
 ### Security
