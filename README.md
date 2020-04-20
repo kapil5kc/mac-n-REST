@@ -16,3 +16,7 @@ If no parameters are passed a default mac address<Example 44:38:39:ff:ef:57> is 
 
 Valid MAC Address : Status Code 200 OK
 else Error Message displayed
+
+## Technical Debt
+### Security
+Implement a seure solution to pass api key in the URL
