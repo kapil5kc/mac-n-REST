@@ -9,5 +9,3 @@ COPY . .
 
 
 ENTRYPOINT [ "python", "./main.py" ]
-
-CMD [ "44:38:39:ff:ef:57" ]
