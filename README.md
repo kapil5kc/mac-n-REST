@@ -1,10 +1,11 @@
 # MAC Address API Service
 
-This is a simple program that makes an api call to www.macaddress.io with a MAC address and returns associated Vendor Name.
+This is a simple program that makes an api call to www.macaddress.io with a MAC address and returns associated Vendor details.
 
 
 ## Usage
-
+**www.macaddress.io provides 3 specific details for a given MAC Address/OUI, namely 'Vendor Details', 'Block Details' & 'MAC Address Details'**
+ 
 The Program runs on a docker container where MAC address can be passed as an argument.
 
 Example : docker run <image_name> <mac_address>
