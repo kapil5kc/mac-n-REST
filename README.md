@@ -5,7 +5,8 @@ This is a simple program that makes an api call to www.macaddress.io with a MAC 
 
 ## Usage
 **www.macaddress.io provides 3 specific details for a given MAC Address/OUI, namely 'Vendor Details', 'Block Details' & 'MAC Address Details'**
- 
+These details can be fetched via REST API either using Query Based or Header Based Authentication.
+We have used Header based Authentication here written in Python.
 The Program runs on a docker container where MAC address can be passed as an argument.
 
 Example : docker run <image_name> <mac_address>
