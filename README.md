@@ -15,6 +15,20 @@ The Program runs on a docker container where MAC address and API Key needs to be
 Example : docker run <image_name> <mac_address> <api_key>
 
 *Note: API Key can be obtained by signing up on the www.macaddress.io page.*
+
+## Execution Steps on Linux Server
+
+**Prerequisite**
+*Docker and Git must be installed*
+
+*Access to Docker Hub*
+
+1. Clone repository :: git clone -b dev https://github.com/kapil5kc/mac-n-REST.git
+2. execute command: cd mac-n-REST 
+3. docker build macapp . or docker-compose build
+4. docker run <docker_image> <mac_address> <api_key>
+
+
 ## Response
 
 Valid MAC Address and API Token : Status Code 200 OK - **Details Retrieved!**
