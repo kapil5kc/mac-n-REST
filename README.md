@@ -44,3 +44,4 @@ Company Name registered with the MAC address is 'allora Factory Bvba' with addre
 ## Technical Debt
 ### Security
 Implement a seure solution to pass api key in the URL ex: JWT
+#new change
